@@ -132,12 +132,12 @@ public:
  * copy ctor
  *
  */
-  logger(const logger&) = default;
+  logger(const logger&) = delete;
 /**
  * assignment operator
  *
  */
-  logger& operator=(const logger&) = default;
+  logger& operator=(const logger&) = delete;
 
 public:
 /**
